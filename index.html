@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Crypto Wallet</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="images/fav-icon.png">
+</head>
+<body>
+  <h1>Мои адреса кошельков на Binance</h1>
+  <div class="container">
+    <div class="wallets">
+      <div class="wallet">
+        <div class="wallet-content">
+          <div class="qr-code">
+            <img src="images/USDT-(TRC-20).png" alt="USDT QR">
+          </div>
+          <div class="wallet-info">
+            <div class="wallet-header">
+              <div class="img">
+                <img src="images/usdt-img.png" alt="USDT Logo">
+              </div>
+              <span>USDT (TRC-20):</span>
+            </div>
+            <input 
+              type="text" 
+              id="usdt-address"
+              value="TGePyfx91KQBFS8ij5aa2JE2n47yqj9jJY"
+              readonly
+            >
+            <button class="copy-btn" data-target="usdt-address">click to copy</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="wallet">
+        <div class="wallet-content">
+          <div class="qr-code">
+            <img src="images/BTC.png" alt="Bitcoin QR">
+          </div>
+          <div class="wallet-info">
+            <div class="wallet-header">
+              <div class="img">
+                <img src="images/btc-img.png" alt="Bitcoin Logo">
+              </div>
+              <span>Bitcoin (BTC):</span>
+            </div>
+            <input 
+              type="text" 
+              id="btc-address"
+              value="13BcDdZBHeLbP3fivy6E7XnnkjxKkYKUBg"
+              readonly
+            >
+            <button class="copy-btn" data-target="btc-address">click to copy</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="wallet">
+        <div class="wallet-content">
+          <div class="qr-code">
+            <img src="images/ETH.png" alt="Ethereum QR">
+          </div>
+          <div class="wallet-info">
+            <div class="wallet-header">
+              <div class="img">
+                <img src="images/eth-img.png" alt="Ethereum Logo">
+              </div>
+              <span>Ethereum (ERC-20):</span>
+            </div>
+            <input 
+              type="text" 
+              id="eth-address"
+              value="0x1e70614590245418cddbfd011f528a253acb9a84"
+              readonly
+            >
+            <button class="copy-btn" data-target="eth-address">click to copy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wallet pay-id">
+      <div class="wallet-pay__id">
+        <div class="qr-image">
+          <img src="images/pay-id.jpg" alt="Binance Pay QR">
+        </div>
+        <span>
+          Для перевода криптовалюты с биржи Binance вы можете
+          использовать этот QR-код. Отсканируйте его
+          через приложение Binance, чтобы быстро и безопасно выполнить
+          перевод средств.
+          <br>
+          <br>
+          Если удобнее, вы также можете использовать Pay ID
+          <input 
+            type="text"
+            id="pay-id" 
+            value="434151531"
+            readonly
+            style="border: none; background: transparent; font-size: inherit; font-family: inherit; padding: 0; width: 80px; font-weight: bold;"
+          >
+          для совершения перевода.
+        </span>
+        <button class="copy-btn" data-target="pay-id">click to copy</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
