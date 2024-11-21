@@ -1,0 +1,19 @@
+{
+  "name": "my-wallet",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yexelay/my-wallet.git"
+  },
+  "author": "Lesha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yexelay/my-wallet/issues"
+  },
+  "homepage": "https://github.com/Yexelay/my-wallet#readme",
+  "description": ""
+}
